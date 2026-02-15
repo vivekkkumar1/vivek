@@ -1,11 +1,68 @@
-html
-{
-    color: black;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
-    color: black;
-    background-color: red;
+html ,body {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
 }
+#main a{
+    margin-left: 30px;
+}
+#nav{
+    padding: 20px;
+    font-size:30px;
+}
+#nav a{
+    text-decoration: none;
+}
+
 h1{
-    color: red;
+    font-family: Helvetica,Arial , sans-serif;
+    font-size: 300px;
+    font-weight: 100;
+    margin-left: 3%;
+}
+
+#details{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 100px;
+
+}
+#material{
+    margin-top: 15px;
+}
+
+#rightbtn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+
+#img img{
+    height: 200px;
+    position: absolute;
+}
+
+    
+
+#img1{
+    left: 62%;
+    top: 42%;
+}
+
+
+#img2{
+    left: 55%;
+    top: 60%;
+}
+#img3{
+    left: 47%;
+    top: 50%;
 }
